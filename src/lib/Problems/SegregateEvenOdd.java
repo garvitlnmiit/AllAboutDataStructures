@@ -39,7 +39,6 @@ public class SegregateEvenOdd
 		lastTemp = lastNode;
 
 		for (int iter=0; iter<listSize; iter++) {
-			printList(root);
 
 			// Hack for all Odds
 			if ((iter == listSize-1) && !containsEven && (head.data%2 != 0)) {
@@ -103,6 +102,6 @@ public class SegregateEvenOdd
 
 		SegregateEvenOdd seo = new SegregateEvenOdd();
 		seo.segregate(llNode);
-		//seo.printList(llNode);
+		seo.printList(llNode);
 	}
 }
