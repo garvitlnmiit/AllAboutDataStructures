@@ -66,6 +66,22 @@ class Graph
 			}
 		}
 	}
+
+	private void DFSUtil() {
+		boolean visited = new boolean[V];
+		for(int iter=0; iter<V; iter++) {
+			if(!visited[iter]) {
+				dfsTraversal(iter, visited);
+			}
+		}
+	}
+
+	// Dfs traversal
+	void dfsTraversal(int source, boolean visited[]) {
+		int cur;
+		boolean visited = new boolean[V];
+		LinkedList<Integer> a
+	}
 }
 
 public class BfsTraversal
