@@ -1,1 +1,1 @@
-#All About DataStructures
+https://discuss.codechef.com/questions/77620/chcinema-editorial
